@@ -1,0 +1,24 @@
+/*------------NAVBAR-----------*/
+/*Menu links*/
+nav a.nav-link{
+    letter-spacing: 0.0375rem;
+    cursor: pointer;
+}
+
+nav ul li{
+    text-decoration: uppercase;
+}
+
+.navbar-nav > li > a {
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+    border-bottom: 0.1875rem solid rgba(255,255,255,0);
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus{
+    border-bottom: 0.1875rem solid #ffffff;
+}
+
+.navbar-nav > li > a:hover{
+    border-bottom: 0.1875rem solid #ffffff;
+}
